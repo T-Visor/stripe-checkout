@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title> Success! </title>
+    <link href="https://stripe-samples.github.io/developer-office-hours/demo.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="main">
+      <div id="container">
+        <div id="panel">
+          <h1> Thank you! </h1>
+          <pre class="json" id="session-data"></pre> 
+        </div>
+      </div>
+    </div>
+    <script charset="utf-8">
+      var sessionData = document.getElementByID("session-data");
+      var params = new URLSearchParams(window.location.search);
+      var id = params.get("id");
+
+      fetch("/create-checkout?id=" + id)
+      .then((response) => response.json())
+      .then((session) => {
+        sessionData.innerText= JSON.stringify(session, null, 2);
+      })
+      .catch((error) => {
+          console.error("Error: ", error);
+      });
+    </script>
+  </body>
+</html>
