@@ -11,14 +11,14 @@ def main():
         Run a test procedure which simulates a successful
         Stripe Checkout session.
     """
-    # Open the locally hosted Node web application.
+    # Opens the locally hosted Node web application.
     driver = webdriver.Firefox()
     driver.get('localhost:4242')
 
-    # Click the button on the landing page to initiate a Stripe Checkout
+    # Clicks the button on the landing page to initiate a Stripe Checkout
     # session.
     driver.find_element_by_id('button').click()
-    time.sleep(5)
+    time.sleep(8)
 
     # Submit information.
     populate_form_using_web_driver(driver)
@@ -41,7 +41,7 @@ def populate_form_using_web_driver(web_driver):
     """
     email_address = 'tkimbr1@students.towson.edu'
     card_number = '4242424242424242'                # card number used to test VISA transactions
-    card_expiration = '1230'                        # December 2030 expiration date
+    card_expiration = '1250'                        # December 2050 expiration date
     card_cvc = '123'
     billing_name = 'Turhan Kimbrough'
     zip_code = '12345'
