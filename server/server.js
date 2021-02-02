@@ -34,7 +34,7 @@ app.post("/create-checkout-session", async (request, response) => {
     payment_method_types: ["card"],
     mode: "payment",
     line_items: [{
-      price: "price_1I63huGBXWEcKDMym3dlaIc9",
+      price: "price_1I78l4GBXWEcKDMylfxHVhTJ",
       quantity: request.body.quantity,
     }] 
   });

@@ -11,7 +11,7 @@
       <div id="container">
         <div id="panel">
           <h1>Office Hours</h1>
-          <input type="number" step="1" id="quantity" value="3">
+          <!-- <input type="number" step="1" id="quantity" value="3"> -->
           <button type="submit" id="button"> Pay </button>
         </div>
       </div>
@@ -19,7 +19,7 @@
     <script charset=utf-8">
       var stripe = Stripe("pk_test_51HjaMKGBXWEcKDMyLLsTrDnB7RxkYee7qqYo0hYybAc2Hc5uahpvtKa6GvMdiUPRZCJ8cOsQQfEX7oCeWxYD2Bik00JAPae1it");
       var button = document.getElementById("button");
-      var quantity = document.getElementById("quantity");
+      var quantity = 1; 
 
       button.addEventListener("click", function(clickEvent) {
         clickEvent.preventDefault();
@@ -29,7 +29,7 @@
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            quantity: quantity.value
+            quantity: quantity
           }),
         })
         .then((response) => response.json())
