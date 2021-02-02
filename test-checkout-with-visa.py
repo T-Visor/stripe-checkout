@@ -1,16 +1,17 @@
 #!/usr/bin/env python
-
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+
+
+
 
 def main():
     """
         Run a test procedure which simulates a successful
         Stripe Checkout session.
     """
-    # Use Firefox to open the locally hosted
-    # node web application.
+    # Open the locally hosted node web application.
     driver = webdriver.Firefox()
     driver.get('localhost:4242')
 
