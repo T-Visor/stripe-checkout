@@ -11,7 +11,7 @@ def main():
         Run a test procedure which simulates a successful
         Stripe Checkout session.
     """
-    # Open the locally hosted node web application.
+    # Open the locally hosted Node web application.
     driver = webdriver.Firefox()
     driver.get('localhost:4242')
 
@@ -39,12 +39,19 @@ def populate_form_using_web_driver(web_driver):
         web_driver (web driver): the browser controller which will
                                  run the test procedure
     """
-    enter_information_into_field(web_driver, 'email', 'tkimbr1@students.towson.edu')
-    enter_information_into_field(web_driver, 'cardNumber', '4242424242424242')
-    enter_information_into_field(web_driver, 'cardExpiry', '1230')
-    enter_information_into_field(web_driver, 'cardCvc', '123')
-    enter_information_into_field(web_driver, 'billingName', 'Turhan Kimbrough')
-    enter_information_into_field(web_driver, 'billingPostalCode', '12345')
+    email_address = 'tkimbr1@students.towson.edu'
+    card_number = '4242424242424242'                # card number used to test VISA transactions
+    card_expiration = '1230'                        # December 2030 expiration date
+    card_cvc = '123'
+    billing_name = 'Turhan Kimbrough'
+    zip_code = '12345'
+
+    enter_information_into_field(web_driver, 'email', email_address)
+    enter_information_into_field(web_driver, 'cardNumber', card_number)
+    enter_information_into_field(web_driver, 'cardExpiry', card_expiration)
+    enter_information_into_field(web_driver, 'cardCvc', card_cvc)
+    enter_information_into_field(web_driver, 'billingName', billing_name)
+    enter_information_into_field(web_driver, 'billingPostalCode', zip_code)
     time.sleep(3)
 
 
