@@ -13,6 +13,7 @@ def main():
     """
     # Opens the locally hosted Node web application.
     driver = webdriver.Chrome()
+    driver.maximize_window()
     driver.get('http://127.0.0.1:4242')
 
     # Clicks the button on the landing page to initiate a Stripe Checkout
