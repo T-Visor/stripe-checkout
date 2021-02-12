@@ -1,8 +1,0 @@
-- Install the latest version of Python3 through the commandline or by visiting
-  www.python.org/downloads
-- Install python-pip which is a package manager for installing python-specific
-  packages
-- Install the latest version of selenium using python-pip
-- Install a webdriver for your preferred web browser (available for Chrome,
-  Firefox)
-- 
