@@ -268,3 +268,49 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1613163517050	Marionette	ERROR	[15] No reply from Marionette:Register
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1613163534574	Marionette	INFO	Stopped listening on port 39973
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613163649216	Marionette	INFO	Listening on port 42335
+1613163649333	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613163649345	Marionette	ERROR	[15] No reply from Marionette:Register
+1613163657975	Marionette	INFO	Stopped listening on port 42335
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613163793800	Marionette	INFO	Listening on port 35083
+1613163793855	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613163793866	Marionette	ERROR	[15] No reply from Marionette:Register
+1613163795115	Marionette	INFO	Stopped listening on port 35083
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613163843340	Marionette	INFO	Listening on port 40851
+1613163843370	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613163843383	Marionette	ERROR	[15] No reply from Marionette:Register
+1613163859407	Marionette	INFO	Stopped listening on port 40851
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613163915924	Marionette	INFO	Listening on port 42669
+1613163915980	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613163915992	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: http://localhost:4242/success?id=cs_test_a1hXaMeeqx1IDRQZaONbw75RWW3w2fdsyxFO0w7VjK3Pkd7Z6TWXrIft36, line 17: TypeError: document.getElementByID is not a function
+1613163938368	Marionette	INFO	Stopped listening on port 42669
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613164326783	Marionette	INFO	Listening on port 37765
+1613164326863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613164326877	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: http://localhost:4242/success?id=cs_test_a1TxLqPaZvFIWbhLzVghUKkQBvgY1L1x4HC5UCELileevhIAUuoyMewGUp, line 17: TypeError: document.getElementByID is not a function
+1613164349351	Marionette	INFO	Stopped listening on port 37765
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613164389572	Marionette	INFO	Listening on port 38795
+1613164389705	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613164389719	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: http://localhost:4242/success?id=cs_test_a1lY62Q46b19bHMGUBmKigWhZtzQ2jB517kvLm1kFYbrlP8b1M0igOV0A6, line 17: TypeError: document.getElementByID is not a function
+1613164412147	Marionette	INFO	Stopped listening on port 38795
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613164649045	Marionette	INFO	Listening on port 41871
+1613164649177	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613164649193	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: http://localhost:4242/success?id=cs_test_a1RoIwANiOAOu4tKX7JPSqdxE6GTiBToPnUqqSo0t3Y54YBAYW2YHihZcL, line 17: TypeError: document.getElementByID is not a function
+1613164671642	Marionette	INFO	Stopped listening on port 41871

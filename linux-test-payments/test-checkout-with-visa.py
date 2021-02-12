@@ -13,8 +13,7 @@ from visa_decline import VisaDecline
 
 def main():
     """
-        Run a test procedure which simulates a successful
-        Stripe Checkout session.
+        Run a test procedure for Stripe Checkout.
     """
     # Get payment information and print details to the console
     payment_information = get_payment_information()
@@ -27,7 +26,7 @@ def main():
     # Click the button on the landing page to initiate a Stripe Checkout
     # session.
     driver.find_element_by_id('button').click()
-    time.sleep(8)
+    time.sleep(3)
 
     # Fillout the form and submit the information
     populate_payment_details_form(driver, payment_information)
