@@ -21,6 +21,7 @@ def main():
         
     # Open the locally hosted Node web application.
     driver = webdriver.Chrome()
+    #driver = webdriver.Firefox() incase Chrome driver doesn't work due to an update, use this
     driver.maximize_window()
     driver.get('http://localhost:4242')
 

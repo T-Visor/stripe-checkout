@@ -321,3 +321,15 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1613164878765	Marionette	ERROR	[15] No reply from Marionette:Register
 JavaScript error: http://localhost:4242/success?id=cs_test_a1gBsu6Gx8sfn277ZWZ3LrGcOZmDwk6hgiOkVxeCSiTBYwPE7T2LkBgskj, line 17: TypeError: document.getElementByID is not a function
 1613164901210	Marionette	INFO	Stopped listening on port 40465
+1613170796397	geckodriver	INFO	Listening on 127.0.0.1:56977
+1613170797343	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileY9Idkq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613170799309	Marionette	INFO	Listening on port 56988
+1613170799423	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613170799433	Marionette	ERROR	[19] No reply from Marionette:Register
+JavaScript error: http://localhost:4242/success?id=cs_test_a1wi8eYKZh9Tiu0PCODhx0b51cbHCYdvXnGOfKEWTXI4orUf5DBUue6zsn, line 17: TypeError: document.getElementByID is not a function
+1613170825746	Marionette	INFO	Stopped listening on port 56988
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
