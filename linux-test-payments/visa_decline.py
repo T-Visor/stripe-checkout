@@ -44,9 +44,11 @@ class VisaDecline(PaymentInformation):
         Returns:
             A string representation of payment information
         """
-        return 'Billing Name: ' + self.billing_name + '\n'          \
+        return '================ VISA DECLINE ================\n' + \
+               'Billing Name: ' + self.billing_name + '\n'          \
                'Email Address: ' + self.email_address + '\n'        \
                'Zip Code: ' + self.zip_code + '\n'                  \
                'Card Number: ' + self._card_number + '\n'           \
                'Card Expiration: ' + self._card_expiration + '\n'   \
-               'Card CVC: ' + self._card_cvc + '\n' 
+               'Card CVC: ' + self._card_cvc + '\n'                 \
+               '==============================================\n'

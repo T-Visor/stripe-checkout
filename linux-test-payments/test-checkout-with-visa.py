@@ -16,7 +16,9 @@ def main():
         Run a test procedure which simulates a successful
         Stripe Checkout session.
     """
+    # Get payment information and print details to the console
     payment_information = get_payment_information()
+    print(payment_information)
         
     # Open the locally hosted Node web application.
     driver = webdriver.Firefox()
