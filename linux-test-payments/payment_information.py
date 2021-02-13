@@ -1,5 +1,8 @@
 from abc import ABC # ABC ==> Abstract Base Class
 
+
+
+
 class PaymentInformation(ABC):
     """ 
         This abstract class represents an encapsulated collection
