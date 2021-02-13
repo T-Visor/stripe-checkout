@@ -10,6 +10,9 @@ class PaymentInformationFactory:
         objects to be used for the Stripe Checkout webpage.
     """
 
+
+
+
     def get_payment_information(self, transaction_type):
         """
             Args:

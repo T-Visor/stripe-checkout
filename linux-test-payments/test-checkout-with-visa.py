@@ -28,7 +28,7 @@ def main():
     driver.find_element_by_id('button').click()
     time.sleep(3)
 
-    # Fillout the form and submit the information
+    # Fill out the form and submit the information
     populate_payment_details_form(driver, payment_information)
     driver.find_element_by_class_name('SubmitButton').click()
     time.sleep(15)
@@ -60,7 +60,7 @@ def parse_commandline_argument():
         be shown and the program will be terminated.
 
     Returns:
-        the parser with the commandline argument
+        the parser with the command-line argument
     """
     parser = argparse.ArgumentParser()
     parser.add_argument('-t', '--transaction', nargs=1, required=True, 
@@ -113,8 +113,7 @@ def enter_information_into_field(web_driver, element_name, information):
         Auto-fill a specific field.
 
     Args:
-        web_driver (web driver): the browser controller which will
-                                 run the test procedure
+        web_driver: the web driver running the automated test
         element_name (string): the string name of the webpage element
         information (string): the string to write into the field
     """
