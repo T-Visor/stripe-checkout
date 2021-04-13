@@ -33,8 +33,8 @@ class VisaSuccess(PaymentInformation):
         self.email_address = email_address or 'akirakurusu@persona.com'
         self.zip_code = zip_code or '55555'
         self._card_number = '4242424242424242'
-        self._card_expiration = '1250'
-        self._card_cvc = '123'
+        self._card_expiration = '1250' # December 2050
+        self._card_cvc = '123' # card verification code
 
 
 
