@@ -15,7 +15,7 @@ CARDHOLDER_NAME = 'Akira Kurusu'
 COUNTRY = 'United States'
 ZIP_CODE = '21252'
 
-SCREENSHOT_FILE_NAME = 'test-1-result.png'
+SCREENSHOT_FILE_NAME = 'results/test-1-result.png'
 
 
 

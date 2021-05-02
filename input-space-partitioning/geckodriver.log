@@ -63,3 +63,9 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1619975230231	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: http://localhost:4242/success?id=cs_test_a1sJuOqHgTyRMQLnw4ruGOa1XKHg2EfXtjprn5sMM7Mej15UmAvQHtLPtA, line 17: TypeError: document.getElementByID is not a function
 1619975243173	Marionette	INFO	Stopped listening on port 34109
+1619975401552	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619975402574	Marionette	INFO	Listening on port 34475
+1619975402668	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1Tp6FzOENJo02ubFAb35Pf3cy4bbqC5XMEzipVE68ULU1LWyY0YWQmx9E, line 17: TypeError: document.getElementByID is not a function
+1619975416436	Marionette	INFO	Stopped listening on port 34475
