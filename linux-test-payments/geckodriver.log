@@ -368,3 +368,158 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: http://localhost:4242/success?id=cs_test_a1zFoMBJwnimE6Qtxn35ZOOkCBkcNAXM0ZGwbBxLo3cwZ3QvmY6jBYnKLF, line 17: TypeError: document.getElementByID is not a function
 1613242808528	Marionette	ERROR	[35] No reply from Marionette:Register
 1613242811622	Marionette	INFO	Stopped listening on port 33819
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/whitelist-usr-share-common.inc
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-exec.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-runuser-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Warning: Warning: NVIDIA card detected, nogroups command disabled
+Parent pid 13872, child pid 13875
+Warning: An abstract unix socket for session D-BUS might still be available. Use --net or remove unix from --protocol set.
+Warning: /sbin directory link was not blacklisted
+Warning: /usr/sbin directory link was not blacklisted
+Warning: Cannot confine the application using AppArmor.
+Maybe firejail-default AppArmor profile is not loaded into the kernel.
+As root, run "aa-enforce firejail-default" to load it.
+Child process initialized in 157.50 ms
+
+Parent is shutting down, bye...
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/whitelist-usr-share-common.inc
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-exec.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-runuser-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Warning: Warning: NVIDIA card detected, nogroups command disabled
+Parent pid 13901, child pid 13904
+Seccomp list in: !chroot, check list: @default-keep, prelist: unknown,
+Warning: An abstract unix socket for session D-BUS might still be available. Use --net or remove unix from --protocol set.
+Warning: /sbin directory link was not blacklisted
+Warning: /usr/sbin directory link was not blacklisted
+Seccomp list in: !chroot, check list: @default-keep, prelist: unknown,
+Warning: Cannot confine the application using AppArmor.
+Maybe firejail-default AppArmor profile is not loaded into the kernel.
+As root, run "aa-enforce firejail-default" to load it.
+Seccomp list in: !chroot, check list: @default-keep, prelist: unknown,
+Child process initialized in 167.77 ms
+
+Parent is shutting down, bye...
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/whitelist-usr-share-common.inc
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-exec.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-runuser-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Warning: Warning: NVIDIA card detected, nogroups command disabled
+Parent pid 14021, child pid 14024
+Warning: An abstract unix socket for session D-BUS might still be available. Use --net or remove unix from --protocol set.
+Warning: /sbin directory link was not blacklisted
+Warning: /usr/sbin directory link was not blacklisted
+Warning: Cannot confine the application using AppArmor.
+Maybe firejail-default AppArmor profile is not loaded into the kernel.
+As root, run "aa-enforce firejail-default" to load it.
+Child process initialized in 138.10 ms
+
+Parent is shutting down, bye...
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/whitelist-usr-share-common.inc
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-exec.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-runuser-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Warning: Warning: NVIDIA card detected, nogroups command disabled
+Parent pid 14053, child pid 14056
+Seccomp list in: !chroot, check list: @default-keep, prelist: unknown,
+Warning: An abstract unix socket for session D-BUS might still be available. Use --net or remove unix from --protocol set.
+Warning: /sbin directory link was not blacklisted
+Warning: /usr/sbin directory link was not blacklisted
+Seccomp list in: !chroot, check list: @default-keep, prelist: unknown,
+Warning: Cannot confine the application using AppArmor.
+Maybe firejail-default AppArmor profile is not loaded into the kernel.
+As root, run "aa-enforce firejail-default" to load it.
+Seccomp list in: !chroot, check list: @default-keep, prelist: unknown,
+Child process initialized in 128.04 ms
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+Parent is shutting down, bye...
+1619489513372	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619489514431	Marionette	INFO	Listening on port 35177
+1619489514471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619489536808	Marionette	INFO	Stopped listening on port 35177
+1619489537618	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619489538699	Marionette	INFO	Listening on port 45441
+1619489538768	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1H3kAricElrkwjDLYo99qG7YPnLpRaRPOYklHRFOdmt1uaAx1dOpXxsrE, line 17: TypeError: document.getElementByID is not a function
+1619489557720	Marionette	INFO	Stopped listening on port 45441
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/whitelist-usr-share-common.inc
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-exec.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-runuser-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Warning: Warning: NVIDIA card detected, nogroups command disabled
+Parent pid 15142, child pid 15145
+Warning: An abstract unix socket for session D-BUS might still be available. Use --net or remove unix from --protocol set.
+Warning: /sbin directory link was not blacklisted
+Warning: /usr/sbin directory link was not blacklisted
+Warning: Cannot confine the application using AppArmor.
+Maybe firejail-default AppArmor profile is not loaded into the kernel.
+As root, run "aa-enforce firejail-default" to load it.
+Child process initialized in 164.84 ms
+
+Parent is shutting down, bye...
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/whitelist-usr-share-common.inc
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-exec.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-runuser-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Warning: Warning: NVIDIA card detected, nogroups command disabled
+Parent pid 15169, child pid 15172
+Seccomp list in: !chroot, check list: @default-keep, prelist: unknown,
+Warning: An abstract unix socket for session D-BUS might still be available. Use --net or remove unix from --protocol set.
+Warning: /sbin directory link was not blacklisted
+Warning: /usr/sbin directory link was not blacklisted
+Seccomp list in: !chroot, check list: @default-keep, prelist: unknown,
+Warning: Cannot confine the application using AppArmor.
+Maybe firejail-default AppArmor profile is not loaded into the kernel.
+As root, run "aa-enforce firejail-default" to load it.
+Seccomp list in: !chroot, check list: @default-keep, prelist: unknown,
+Child process initialized in 165.15 ms
+
+Parent is shutting down, bye...
