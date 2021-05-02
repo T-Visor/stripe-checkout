@@ -19,6 +19,9 @@ ZIP_CODE = '21252'
 
 
 def main():
+    """
+        Run the test procedure.
+    """
     # Open locally hosted webpage.
     driver = webdriver.Firefox()
     driver.get('localhost:4242')
