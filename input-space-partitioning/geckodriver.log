@@ -39,3 +39,27 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1619925704547	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: http://localhost:4242/success?id=cs_test_a1wEkoMVZIvfhxtlBv5k12d1xH3jZetvRo9wjecPqznDPGMpLTgchQJc3Q, line 17: TypeError: document.getElementByID is not a function
 1619925716798	Marionette	INFO	Stopped listening on port 46431
+1619974605569	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619974606608	Marionette	INFO	Listening on port 38409
+1619974606691	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619974623732	Marionette	INFO	Stopped listening on port 38409
+1619974626194	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619974627194	Marionette	INFO	Listening on port 41819
+1619974627244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1oDbnRBuGsI0dYFc5FGLCgJNp9YN53vvJzgAfjpcNtxsRwkuvagvRluQj, line 17: TypeError: document.getElementByID is not a function
+1619974640252	Marionette	INFO	Stopped listening on port 41819
+Exiting due to channel error.
+1619974688562	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619974689577	Marionette	INFO	Listening on port 38301
+1619974689607	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1BrjNOCdYJ8gm5qFFiXeYoRNYi68nQVVwP1CASDL830sBDKqELpTEaPi9, line 17: TypeError: document.getElementByID is not a function
+1619974707537	Marionette	INFO	Stopped listening on port 38301
+1619975229097	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619975230174	Marionette	INFO	Listening on port 34109
+1619975230231	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1sJuOqHgTyRMQLnw4ruGOa1XKHg2EfXtjprn5sMM7Mej15UmAvQHtLPtA, line 17: TypeError: document.getElementByID is not a function
+1619975243173	Marionette	INFO	Stopped listening on port 34109

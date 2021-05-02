@@ -15,6 +15,8 @@ CARDHOLDER_NAME = 'Akira Kurusu'
 COUNTRY = 'United States'
 ZIP_CODE = '21252'
 
+SCREENSHOT_FILE_NAME = 'test-1-result.png'
+
 
 
 
@@ -36,8 +38,11 @@ def main():
     # Submit the information. 
     driver.find_element_by_class_name('SubmitButton').click()
 
-    # Wait, then close the session.
+    # Take a screenshot.
     time.sleep(10)
+    driver.save_screenshot(SCREENSHOT_FILE_NAME)
+
+    # Close the session.
     driver.close()
 
 
