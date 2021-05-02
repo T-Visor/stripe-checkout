@@ -1,0 +1,35 @@
+1619924845617	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619924846657	Marionette	INFO	Listening on port 46211
+1619924846745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619924864182	Marionette	INFO	Stopped listening on port 46211
+1619924868443	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619924869481	Marionette	INFO	Listening on port 40717
+1619924869566	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619924887778	Marionette	INFO	Stopped listening on port 40717
+1619924940160	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619924941219	Marionette	INFO	Listening on port 37883
+1619924941294	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619924954769	Marionette	INFO	Stopped listening on port 37883
+1619925159651	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619925160703	Marionette	INFO	Listening on port 42661
+1619925160755	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619925163605	Marionette	INFO	Stopped listening on port 42661
+1619925455782	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619925456843	Marionette	INFO	Listening on port 36717
+1619925456937	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1lRIxXHLBtLv2KCNGoC26Ld1A8NTxBgGngHvnJgqsY9mrnPgwjSvxTyEs, line 17: TypeError: document.getElementByID is not a function
+1619925465989	Marionette	INFO	Stopped listening on port 36717
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619925478118	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619925479185	Marionette	INFO	Listening on port 36659
+1619925479244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1MIMx5acf0EWuNOrZ1dA6HDPBNHQTPzaOquCuhReKlPxdoXgTJzDzi41E, line 17: TypeError: document.getElementByID is not a function
+1619925492024	Marionette	INFO	Stopped listening on port 36659
