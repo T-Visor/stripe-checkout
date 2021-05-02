@@ -146,3 +146,9 @@ JavaScript error: http://localhost:4242/success?id=cs_test_a1x77SydOaVtZFJjI5sLg
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1619977045419	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619977046425	Marionette	INFO	Listening on port 45233
+1619977046530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a115r9bpoc4302zCUuSeAoztRzcVLnuwcpkVNmcNfiwPUDnoaKMFx3AAi1, line 17: TypeError: document.getElementByID is not a function
+1619977059630	Marionette	INFO	Stopped listening on port 45233
