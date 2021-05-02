@@ -69,3 +69,80 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1619975402668	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: http://localhost:4242/success?id=cs_test_a1Tp6FzOENJo02ubFAb35Pf3cy4bbqC5XMEzipVE68ULU1LWyY0YWQmx9E, line 17: TypeError: document.getElementByID is not a function
 1619975416436	Marionette	INFO	Stopped listening on port 34475
+1619975551684	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619975552751	Marionette	INFO	Listening on port 44663
+1619975552794	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619975566010	Marionette	INFO	Stopped listening on port 44663
+1619975683616	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619975684699	Marionette	INFO	Listening on port 43235
+1619975684749	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:69
+unregisterCommandsActor@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:390:15
+GeckoDriver.prototype.deleteSession@chrome://marionette/content/driver.js:2335:3
+onClosed@chrome://marionette/content/server.js:194:17
+close@chrome://marionette/content/transport.js:225:18
+onInputStreamReady@chrome://marionette/content/transport.js:379:14
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Exiting due to channel error.
+Exiting due to channel error.
+1619975753752	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619975754769	Marionette	INFO	Listening on port 41507
+1619975754870	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1Bb6nONyUb2Os2B6OlhheQrKcUcZHu6VvDIdqxJYevjPrMaQDHWYIuj3E, line 17: TypeError: document.getElementByID is not a function
+1619975767722	Marionette	INFO	Stopped listening on port 41507
+1619975768545	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619975769686	Marionette	INFO	Listening on port 45577
+1619975769772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619975782867	Marionette	INFO	Stopped listening on port 45577
+1619975783636	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619975784670	Marionette	INFO	Listening on port 46005
+1619975784737	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1eOtP6snfMEm7O5w84Tuhpje7Qiy3BYginsFOZrXf5rNIerDicVUbwjBv, line 17: TypeError: document.getElementByID is not a function
+1619975797489	Marionette	INFO	Stopped listening on port 46005
+1619976215610	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619976216647	Marionette	INFO	Listening on port 36837
+1619976216727	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1iAHntxjsj79BP9pgAPmOXSJDDQ7dgEYtq3B330yoEr3gKhWDHnalz2Ow, line 17: TypeError: document.getElementByID is not a function
+1619976229650	Marionette	INFO	Stopped listening on port 36837
+1619976230536	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619976231557	Marionette	INFO	Listening on port 38195
+1619976231664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619976244660	Marionette	INFO	Stopped listening on port 38195
+1619976245529	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619976246561	Marionette	INFO	Listening on port 41291
+1619976246655	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1gFEi7pjD9mL278WGtcJvqG5AXaT4Eiutq0Cl5idoPOP7XtN3VjsYzMza, line 17: TypeError: document.getElementByID is not a function
+1619976259390	Marionette	INFO	Stopped listening on port 41291
+1619976260154	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619976261171	Marionette	INFO	Listening on port 34193
+1619976261187	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1x77SydOaVtZFJjI5sLgoILYBFqY3KBrehCy9DhSHOxsWSuNwgNDtFD0j, line 17: TypeError: document.getElementByID is not a function
+1619976274270	Marionette	INFO	Stopped listening on port 34193
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
