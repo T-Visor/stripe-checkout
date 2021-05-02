@@ -57,8 +57,8 @@ def populate_payment_details_form(driver):
     enter_information_into_field(driver, 'billingName', CARDHOLDER_NAME)
     enter_information_into_field(driver, 'billingPostalCode', ZIP_CODE)
 
-    select = Select(driver.find_element_by_id('billingCountry'))
-    select.select_by_visible_text(COUNTRY)
+    drop_down_menu = Select(driver.find_element_by_id('billingCountry'))
+    drop_down_menu.select_by_visible_text(COUNTRY)
 
     driver.implicitly_wait(5) # seconds
 
