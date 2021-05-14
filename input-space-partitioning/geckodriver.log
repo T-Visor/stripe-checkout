@@ -168,3 +168,409 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1619978563308	Marionette	INFO	Listening on port 43695
 1619978563390	Marionette	WARN	TLS certificate errors will be ignored for this session
 1619978576669	Marionette	INFO	Stopped listening on port 43695
+1620187727782	geckodriver	INFO	Listening on 127.0.0.1:51575
+1620187728747	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileZaPI5T"
+1620187729239	Marionette	INFO	Marionette enabled
+2021-05-05 00:08:50.321 firefox-bin[4966:157010] Warning: Expected min height of view: (<NSButton: 0x13df14800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:08:50.321 firefox-bin[4966:157010] Warning: Expected min height of view: (<NSButton: 0x13df16400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:08:50.321 firefox-bin[4966:157010] Warning: Expected min height of view: (<NSButton: 0x13df13000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:08:50.322 firefox-bin[4966:157010] Warning: Expected min height of view: (<NSButton: 0x13df15800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:08:50.322 firefox-bin[4966:157010] Warning: Expected min height of view: (<NSButton: 0x13df15c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:08:50.323 firefox-bin[4966:157010] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13df17c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:08:50.323 firefox-bin[4966:157010] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13dfec000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620187731534	Marionette	INFO	Listening on port 51586
+1620187731644	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620187734620	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: http://localhost:4242/success?id=cs_test_a1rFpGkHDmu7Gm2NvLONYKV3yEmSsJiMypeNNAUdnXIVYCt2cX5Z8yyZPf, line 17: TypeError: document.getElementByID is not a function
+1620187744981	Marionette	INFO	Stopped listening on port 51586
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620187761106	geckodriver	INFO	Listening on 127.0.0.1:51680
+1620187761116	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilefU8Vt4"
+1620187761546	Marionette	INFO	Marionette enabled
+2021-05-05 00:09:22.626 firefox-bin[4993:157749] Warning: Expected min height of view: (<NSButton: 0x126cf1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:09:22.626 firefox-bin[4993:157749] Warning: Expected min height of view: (<NSButton: 0x131aea000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:09:22.627 firefox-bin[4993:157749] Warning: Expected min height of view: (<NSButton: 0x131ae5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:09:22.627 firefox-bin[4993:157749] Warning: Expected min height of view: (<NSButton: 0x131ae5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:09:22.628 firefox-bin[4993:157749] Warning: Expected min height of view: (<NSButton: 0x131aec800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:09:22.628 firefox-bin[4993:157749] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131ae6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 00:09:22.628 firefox-bin[4993:157749] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131dde400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620187763759	Marionette	INFO	Listening on port 51689
+1620187763805	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620187766862	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: http://localhost:4242/success?id=cs_test_a1AODHzVUUfhhkiLKTyaMzT5vbYdTY5B5WkJlECC4NUp0Hg6OReHWwI2c6, line 17: TypeError: document.getElementByID is not a function
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1620273025164	geckodriver	INFO	Listening on 127.0.0.1:50639
+1620273025215	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileUldYQD"
+1620273025716	Marionette	INFO	Marionette enabled
+2021-05-05 23:50:26.816 firefox-bin[1555:91299] Warning: Expected min height of view: (<NSButton: 0x12f718800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:26.817 firefox-bin[1555:91299] Warning: Expected min height of view: (<NSButton: 0x12f713800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:26.817 firefox-bin[1555:91299] Warning: Expected min height of view: (<NSButton: 0x12f71a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:26.818 firefox-bin[1555:91299] Warning: Expected min height of view: (<NSButton: 0x12f717000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:26.818 firefox-bin[1555:91299] Warning: Expected min height of view: (<NSButton: 0x12f717c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:26.819 firefox-bin[1555:91299] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12f716000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:26.819 firefox-bin[1555:91299] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12f8e5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273027868	Marionette	INFO	Listening on port 50648
+1620273027905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1VF01prwxQnE1gnrzFVVh8CIIAI5Q7IvWrw6qA7fafDIGA07KGn42LK31, line 17: TypeError: document.getElementByID is not a function
+1620273040672	Marionette	INFO	Stopped listening on port 50648
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273041280	geckodriver	INFO	Listening on 127.0.0.1:50735
+1620273041291	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileyrxJqA"
+1620273041778	Marionette	INFO	Marionette enabled
+2021-05-05 23:50:42.848 firefox-bin[1561:91893] Warning: Expected min height of view: (<NSButton: 0x12ece9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:42.848 firefox-bin[1561:91893] Warning: Expected min height of view: (<NSButton: 0x139a9cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:42.849 firefox-bin[1561:91893] Warning: Expected min height of view: (<NSButton: 0x139a9d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:42.849 firefox-bin[1561:91893] Warning: Expected min height of view: (<NSButton: 0x139a9f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:42.850 firefox-bin[1561:91893] Warning: Expected min height of view: (<NSButton: 0x139a9f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:42.850 firefox-bin[1561:91893] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x139a9d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:42.850 firefox-bin[1561:91893] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x139de1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273044019	Marionette	INFO	Listening on port 50744
+1620273044062	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1fjD9AYhQmpY1HMW1HI9iCepBom8r2aN5gY9c74HYSefzVvQjHvBnemos, line 17: TypeError: document.getElementByID is not a function
+1620273057092	Marionette	INFO	Stopped listening on port 50744
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273057935	geckodriver	INFO	Listening on 127.0.0.1:50834
+1620273057945	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileESyneC"
+1620273058408	Marionette	INFO	Marionette enabled
+2021-05-05 23:50:59.495 firefox-bin[1570:92423] Warning: Expected min height of view: (<NSButton: 0x137e11000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:59.495 firefox-bin[1570:92423] Warning: Expected min height of view: (<NSButton: 0x137e0a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:59.496 firefox-bin[1570:92423] Warning: Expected min height of view: (<NSButton: 0x137e0f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:59.496 firefox-bin[1570:92423] Warning: Expected min height of view: (<NSButton: 0x137e0c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:59.497 firefox-bin[1570:92423] Warning: Expected min height of view: (<NSButton: 0x137e0ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:59.497 firefox-bin[1570:92423] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x137e0b000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:50:59.498 firefox-bin[1570:92423] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x137ee8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273060453	Marionette	INFO	Listening on port 50843
+1620273060532	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1vT7GbHVwCesLKepb4yr2qQqKzLlqRqETlHa5OO8DY6Ei0FgzTlB8BoSG, line 17: TypeError: document.getElementByID is not a function
+1620273074627	Marionette	INFO	Stopped listening on port 50843
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273075268	geckodriver	INFO	Listening on 127.0.0.1:50933
+1620273075279	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilewWa9qx"
+1620273075749	Marionette	INFO	Marionette enabled
+2021-05-05 23:51:16.836 firefox-bin[1577:92979] Warning: Expected min height of view: (<NSButton: 0x1269e8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:16.837 firefox-bin[1577:92979] Warning: Expected min height of view: (<NSButton: 0x1317a6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:16.837 firefox-bin[1577:92979] Warning: Expected min height of view: (<NSButton: 0x1317ad800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:16.838 firefox-bin[1577:92979] Warning: Expected min height of view: (<NSButton: 0x1317a9800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:16.838 firefox-bin[1577:92979] Warning: Expected min height of view: (<NSButton: 0x1317a9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:16.839 firefox-bin[1577:92979] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1317a6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:16.839 firefox-bin[1577:92979] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1317ae400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273077901	Marionette	INFO	Listening on port 50942
+1620273077951	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1UWjTDojEZspv8KDetzVbvDNFYDplUoQzD1KzjIuUptitvxecDeUTwLjw, line 17: TypeError: document.getElementByID is not a function
+1620273091526	Marionette	INFO	Stopped listening on port 50942
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273092166	geckodriver	INFO	Listening on 127.0.0.1:51028
+1620273092176	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileg3Y31W"
+1620273092639	Marionette	INFO	Marionette enabled
+2021-05-05 23:51:33.714 firefox-bin[1583:93466] Warning: Expected min height of view: (<NSButton: 0x138e1b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:33.715 firefox-bin[1583:93466] Warning: Expected min height of view: (<NSButton: 0x138e18400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:33.715 firefox-bin[1583:93466] Warning: Expected min height of view: (<NSButton: 0x138e17000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:33.716 firefox-bin[1583:93466] Warning: Expected min height of view: (<NSButton: 0x138e17800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:33.716 firefox-bin[1583:93466] Warning: Expected min height of view: (<NSButton: 0x138e18c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:33.716 firefox-bin[1583:93466] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x138e19800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-05 23:51:33.717 firefox-bin[1583:93466] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x138eea000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273094760	Marionette	INFO	Listening on port 51037
+1620273094844	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a16YbXFKpbEH0VQLRARIprmZrg4S3SyY7CGMzTk4Al9Mogbe9ewpVLiQiW, line 17: TypeError: document.getElementByID is not a function
+1620273108018	Marionette	INFO	Stopped listening on port 51037
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273108642	geckodriver	INFO	Listening on 127.0.0.1:51129
+1620273108652	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileAP3spC"
+1620273109115	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273111053	Marionette	INFO	Listening on port 51138
+1620273111125	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1Lhv6Yd4IAvUAkXQcRQvpQw4F0gxLzweExijigJhYM6fgiNVtetuNupdr, line 17: TypeError: document.getElementByID is not a function
+1620273124591	Marionette	INFO	Stopped listening on port 51138
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273125244	geckodriver	INFO	Listening on 127.0.0.1:51224
+1620273125255	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilejI7OBN"
+1620273125713	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273127619	Marionette	INFO	Listening on port 51233
+1620273127707	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1V19HxFAx0BQ0lmyppFFGYMVr9vF8GmemcIaI01vGcgRfwrpHtTLB2zmv, line 17: TypeError: document.getElementByID is not a function
+1620273140875	Marionette	INFO	Stopped listening on port 51233
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273141503	geckodriver	INFO	Listening on 127.0.0.1:51324
+1620273141514	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilecB2p3q"
+1620273141967	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273143846	Marionette	INFO	Listening on port 51333
+1620273143881	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1Ym7wSrfLDPl3sgKlCRQF1epxBEg01DjIAtpl83qlebjQvghOhTYfcB7m, line 17: TypeError: document.getElementByID is not a function
+1620273156678	Marionette	INFO	Stopped listening on port 51333
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273157304	geckodriver	INFO	Listening on 127.0.0.1:51421
+1620273157314	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofile7zQ4u9"
+1620273157767	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273159738	Marionette	INFO	Listening on port 51430
+1620273159796	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620273173054	Marionette	INFO	Stopped listening on port 51430
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273173758	geckodriver	INFO	Listening on 127.0.0.1:51521
+1620273173768	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileFO2LIj"
+1620273174224	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273176199	Marionette	INFO	Listening on port 51530
+1620273176251	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1hThkuPkvH8vEDWscis7cdKfGlOcaKY3iVgJUmMdVX9TC9ZMIQ5tMcj5N, line 17: TypeError: document.getElementByID is not a function
+1620273189179	Marionette	INFO	Stopped listening on port 51530
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273189831	geckodriver	INFO	Listening on 127.0.0.1:51614
+1620273189841	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileu6f1cn"
+1620273190292	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273192244	Marionette	INFO	Listening on port 51619
+1620273192320	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620273205406	Marionette	INFO	Stopped listening on port 51619
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273206109	geckodriver	INFO	Listening on 127.0.0.1:51709
+1620273206119	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileP865HI"
+1620273206573	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273208518	Marionette	INFO	Listening on port 51714
+1620273208581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620273221459	Marionette	INFO	Stopped listening on port 51714
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273222135	geckodriver	INFO	Listening on 127.0.0.1:51805
+1620273222145	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilea0iOht"
+1620273222600	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273224560	Marionette	INFO	Listening on port 51810
+1620273224608	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1PlhgnDPRhD615cMcFRr1JKtoU7blw4oWHJ2ChKAvJNgSgc0WmhmNd27P, line 17: TypeError: document.getElementByID is not a function
+1620273237322	Marionette	INFO	Stopped listening on port 51810
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273237952	geckodriver	INFO	Listening on 127.0.0.1:51900
+1620273237962	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileqvJCoc"
+1620273238413	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273240286	Marionette	INFO	Listening on port 51905
+1620273240342	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1IyJmBTw1nUwtJd7MfEuD7n7OEts6KVMVA5zbEW66QBeFBExlnWOdOoXc, line 17: TypeError: document.getElementByID is not a function
+1620273255216	Marionette	INFO	Stopped listening on port 51905
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273255867	geckodriver	INFO	Listening on 127.0.0.1:51993
+1620273255877	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilexuSCww"
+1620273256331	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273258266	Marionette	INFO	Listening on port 51998
+1620273258360	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1YxkQ5rP3YrHMNPThXB7IiSNZwWGg8e0mc5tJhEX48Te9WFhQ5yUcBdAq, line 17: TypeError: document.getElementByID is not a function
+1620273271149	Marionette	INFO	Stopped listening on port 51998
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273271781	geckodriver	INFO	Listening on 127.0.0.1:52086
+1620273271791	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileCeQ7ZW"
+1620273272242	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273274186	Marionette	INFO	Listening on port 52091
+1620273274260	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1patKD5GjmOE37oYTqrbsjD0u78Z78T6HvjQZznnThNepKeFKujvYxo13, line 17: TypeError: document.getElementByID is not a function
+1620273287163	Marionette	INFO	Stopped listening on port 52091
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273287792	geckodriver	INFO	Listening on 127.0.0.1:52176
+1620273287803	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilegWPDsT"
+1620273288261	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273290250	Marionette	INFO	Listening on port 52181
+1620273290279	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1tzgLjUAq9vbwG6dnqEjykjsoD9uqWDhNCBvBetinrB18gWdwRAUhua0n, line 17: TypeError: document.getElementByID is not a function
+1620273303052	Marionette	INFO	Stopped listening on port 52181
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273303765	geckodriver	INFO	Listening on 127.0.0.1:52267
+1620273303775	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilevwN67W"
+1620273304238	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273306168	Marionette	INFO	Listening on port 52272
+1620273306234	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620273319417	Marionette	INFO	Stopped listening on port 52272
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273320086	geckodriver	INFO	Listening on 127.0.0.1:52362
+1620273320095	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileVbE5yX"
+1620273320557	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273322500	Marionette	INFO	Listening on port 52367
+1620273322556	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1ZzMHfPtKT8V74vfqQTcXwLPSmFukfrPA9KzoHPgrQ71zdJA7JV48aq8H, line 17: TypeError: document.getElementByID is not a function
+1620273335363	Marionette	INFO	Stopped listening on port 52367
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273336007	geckodriver	INFO	Listening on 127.0.0.1:52452
+1620273336017	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileSZXzB8"
+1620273336477	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273338453	Marionette	INFO	Listening on port 52457
+1620273338559	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1mQ7YmOulqBb8px31hkfiXkOnndVEeig0DGq4lTil344JagWvQWBtCHSO, line 17: TypeError: document.getElementByID is not a function
+1620273351719	Marionette	INFO	Stopped listening on port 52457
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273352370	geckodriver	INFO	Listening on 127.0.0.1:52551
+1620273352380	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileZB5fEF"
+1620273352837	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273354826	Marionette	INFO	Listening on port 52556
+1620273354926	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1QITHhLxWqZWvrCuRDNYuZfMlIcPgQhnWFaEW3NpVAy1EoWi1rTrDVGJH, line 17: TypeError: document.getElementByID is not a function
+1620273368016	Marionette	INFO	Stopped listening on port 52556
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273368642	geckodriver	INFO	Listening on 127.0.0.1:52646
+1620273368652	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilegE94Ga"
+1620273369116	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273371066	Marionette	INFO	Listening on port 52651
+1620273371105	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1yB0WTOHsw28MvTodhHcsEenC5qiV096uygxdWBkSKPY6zIHNiZetlGg6, line 17: TypeError: document.getElementByID is not a function
+1620273384435	Marionette	INFO	Stopped listening on port 52651
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273385107	geckodriver	INFO	Listening on 127.0.0.1:52742
+1620273385117	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofile56tVJ6"
+1620273385585	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273387529	Marionette	INFO	Listening on port 52747
+1620273387572	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a16sH42tDhf6uQ0cUkPEGpwNb0WU96zDb0oRV6lUY29TJVMUPxI90O6CrI, line 17: TypeError: document.getElementByID is not a function
+1620273400198	Marionette	INFO	Stopped listening on port 52747
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273400834	geckodriver	INFO	Listening on 127.0.0.1:52832
+1620273400844	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileGoYGns"
+1620273401357	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273403331	Marionette	INFO	Listening on port 52837
+1620273403374	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620273416515	Marionette	INFO	Stopped listening on port 52837
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273417138	geckodriver	INFO	Listening on 127.0.0.1:52927
+1620273417148	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileMKTNaY"
+1620273417604	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273419560	Marionette	INFO	Listening on port 52932
+1620273419587	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1b4qASLuVv3Vb42ttz66Fkz3lu4IprMhTobxW3VLNSu08NBlwXxjQQS1l, line 17: TypeError: document.getElementByID is not a function
+1620273432555	Marionette	INFO	Stopped listening on port 52932
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273433190	geckodriver	INFO	Listening on 127.0.0.1:53022
+1620273433200	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilerN5f0J"
+1620273433653	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273435646	Marionette	INFO	Listening on port 53027
+1620273435754	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1wRMHbhjSp6gV7JO4EMMcAYp23o6btjuTyMjr8DMM3zAcDv2S9BSHrByf, line 17: TypeError: document.getElementByID is not a function
+1620273448419	Marionette	INFO	Stopped listening on port 53027
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273449094	geckodriver	INFO	Listening on 127.0.0.1:53116
+1620273449104	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileuvcYoK"
+1620273449551	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273451484	Marionette	INFO	Listening on port 53121
+1620273451544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a1QUe7kyLgVn71MVzAVvqhdUNnuHuWaHhtDRNKkta0d6mwRsSALt5bZBQK, line 17: TypeError: document.getElementByID is not a function
+1620273464164	Marionette	INFO	Stopped listening on port 53121
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273464789	geckodriver	INFO	Listening on 127.0.0.1:53206
+1620273464799	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileLXLb8I"
+1620273465258	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273467247	Marionette	INFO	Listening on port 53211
+1620273467363	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a11XX2JIhxcWY8yiobhMahgEg3P4oy6DxFCLDUTyTgN7PKDrzzb8FKa6K7, line 17: TypeError: document.getElementByID is not a function
+1620273480154	Marionette	INFO	Stopped listening on port 53211
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273480780	geckodriver	INFO	Listening on 127.0.0.1:53298
+1620273480790	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofilenhsc9V"
+1620273481247	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273483067	Marionette	INFO	Listening on port 53303
+1620273483126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620273497377	Marionette	INFO	Stopped listening on port 53303
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620273498014	geckodriver	INFO	Listening on 127.0.0.1:53387
+1620273498024	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/r8wl5jn534dbw744tx3mjyt80000gn/T/rust_mozprofileFFxfVT"
+1620273498484	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620273500410	Marionette	INFO	Listening on port 53392
+1620273500450	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:4242/success?id=cs_test_a11LnKpOkrr0aUd9cnqrtDAX5jnug5GwlDd8AcQFWsq6eZZpO5xZ2LyzKk, line 17: TypeError: document.getElementByID is not a function
+1620273513079	Marionette	INFO	Stopped listening on port 53392
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
